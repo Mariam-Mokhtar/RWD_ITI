@@ -1,0 +1,21 @@
+
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    height: 635px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.child{
+    width: 15%;
+    height: 10%;
+    border: 2px solid rgb(255, 136, 0);
+    padding: 1%;
+}
+@media (max-width:300px) {
+    .child {
+        width: auto;
+        height: 5%;
+    }
+}

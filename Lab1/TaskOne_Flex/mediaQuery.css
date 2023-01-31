@@ -1,0 +1,20 @@
+@import url("../Reset_Css_File/reset-min.css");
+@import url("./style.css");
+
+@media (max-width:750px) {
+    .child {
+        flex-flow: column wrap;
+        margin: auto;
+        width: 75%;
+    }
+
+    .div_child {
+        flex-flow: column wrap;
+        margin: auto;
+        width: 100%;
+    }
+
+    .nav_child {
+        text-align: center;
+    }
+}

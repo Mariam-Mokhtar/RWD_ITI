@@ -1,0 +1,61 @@
+.container {
+    padding: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    width: 30%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(75px, auto);
+    margin: auto;
+    gap: 0.5rem;
+    color: white;
+    transform: rotate(45deg);
+    animation: myanim 5s infinite linear;
+}
+
+.grid>div {
+    background-color: rgb(100, 100, 187);
+    padding: 5%;
+}
+
+
+.child1 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.child2 {
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+.child3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.child4 {
+    grid-column: 3/4;
+    grid-row: 3/6;
+}
+
+.child5 {
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+@keyframes myanim {
+    form {
+        transform: rotate(45deg);
+    }
+
+    to {
+        transform: rotate(404deg);
+    }
+
+
+}

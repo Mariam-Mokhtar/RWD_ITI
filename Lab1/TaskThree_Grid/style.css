@@ -1,0 +1,31 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(75px,auto);
+    background-color:rgb(235, 231, 231);
+    padding: 1rem;
+    gap:0.5rem;
+    color: white;
+    justify-content: space-between;
+    height: 75vh;}
+
+header,footer{  
+    background-color:rgb(100, 100, 187);
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+aside,main{
+    background-color:rgb(211, 135, 63);
+    text-align: center;
+    grid-row: 2/7;
+    padding: 5%;
+}
+
+main{
+    background-color:rgb(61, 180, 61);
+}
+
