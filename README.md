@@ -18,3 +18,7 @@ https://mariam-mokhtar.github.io/RWD_ITI/Lab1/TaskTwo_Flex/
 4-TaskThree_Grid
 ----------------
 https://mariam-mokhtar.github.io/RWD_ITI/Lab1/TaskThree_Grid/
+
+LAB2
+----
+https://mariam-mokhtar.github.io/RWD_ITI/Lab2/
